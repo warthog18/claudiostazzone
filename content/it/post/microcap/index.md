@@ -30,10 +30,12 @@ toclevels: 4
 
 _Ho raccolto tutto il materiale dal sito della Spectrum Soft, non più attivo_
 
+{{% alert warning %}}
 **DISCLAMER**: il materiale qui fornito è stato scaricato in modo del tutto legale dal sito internet della Spectrum Soft, ed è
 fornito a titolo completamente gratuito. Nessuna somma di denaro è richiesta per il suo scaricamento. Il materiale è fornito
 gratuitamente a tutta la comunità di progettisti elettronici e può essere usato liberamente. La conservazione del materiale serve per preservare la memoria
 nonostante non sia più disponibile a causa della chiusura del sito web che lo ospitava e relativa disattivazione del dominio www.spectrum-soft.com
+{{% /alert %}}
 
 MicroCap ([pagina WikiPedia](https://en.wikipedia.org/wiki/Micro-Cap)) era un simulatore di circuiti elettronici basato sul motore Spice Berkley.
 Era un software venduto a 4500 $, che già diverso tempo fa consentiva di fare simulazioni integrando i parametri [IBIS](https://en.wikipedia.org/wiki/Input/output_Buffer_Information_Specification) con le direttive SPICE, definendo macro, simulazioni MonteCarlo, e ottimizzazione dei valori di componenti. Inoltre aveva una funzione interessante che consentiva di "disegnare" le caratteristiche I/V e altre curve di qualsiasi componente, che il progettista poteva reperire sui datasheet, creando così modelli di componenti molto aderenti alla realtà.

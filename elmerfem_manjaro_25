@@ -1,0 +1,8 @@
+
+yay -S parmetis
+
+cmake -DWITH_ELMERGUI:BOOL=TRUE -DWITH_OpenMP:BOOLEAN=TRUE -DWITH_MPI:BOOLEAN=TRUE -DWITH_ELMERGUI:BOOLEAN=TRUE -DCMAKE_INSTALL_PREFIX=../install ../../elmerfem
+
+make
+
+make install
