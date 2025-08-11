@@ -1,0 +1,568 @@
+
+
+Winter 2016
+Questions and Answers
+Easily Overlooked Features
+Using the Optimizer to Set Oscillator Frequency
+The Fit to Standard Values Command
+Fourier Analysis Guidelines
+Winter 2016 Newsletter Files
+Winter 2016 Newsletter PDF File
+
+Fall 2015
+Questions and Answers
+Easily Overlooked Features
+Working With Nonlinear Capacitors
+Viewing Monte Carlo Circuit Cases
+Making a DPDT Switch
+Fall 2015 Newsletter Files
+Fall 2015 Newsletter PDF File
+
+Spring 2015
+Questions and Answers
+Easily Overlooked Features
+Subcircuit Variables and Passed Parameter
+A Simple Way to Add Parts to the Component Library
+Plotting Ferrite Core Impedance and S Parameter Curves
+Spring 2015 Newsletter Files
+Spring 2015 Newsletter PDF File
+
+Winter 2015
+Questions and Answers
+Easily Overlooked Features
+Creating Parts with Many Pins
+Curve Fitting with Micro-Cap
+Quasi Small Signal Analysis Updated
+Winter 2015 Newsletter Files
+Winter 2015 Newsletter PDF File
+
+Summer 2014
+Questions and Answers
+Easily Overlooked Features
+Encryption
+Migrate Command
+Importing data from MATLAB
+Exporting data to MATLAB
+Summer 2014 Newsletter Files
+Summer 2014 Newsletter PDF File
+
+Spring 2014
+Questions and Answers
+Easily Overlooked Features
+Exporting Data to Excel
+Stepper Motor Model
+AC Induction Motor Model
+Spring 2014 Newsletter Files
+Spring 2014 Newsletter PDF File
+
+Winter 2014
+Questions and Answers
+Easily Overlooked Features
+Phase Locked Loops
+FSK System Using a PLL
+Batch Files
+Winter 2014 Newsletter Files
+Winter 2014 Newsletter PDF File
+
+Fall 2013
+Questions and Answers
+Easily Overlooked Features
+Worst Case Analysis
+Stability Analysis
+.Measure commands
+Fourier Window Functions
+Fall 2013 Newsletter Files
+Fall 2013 Newsletter PDF File
+
+Winter 2013
+Questions and Answers
+Easily Overlooked Features
+Performance Functions
+Analysis Plot Labels
+Periodic Steady State
+Winter 2013 Newsletter Files
+Winter 2013 Newsletter PDF File
+
+Fall 2012
+Questions and Answers
+Easily Overlooked Features
+Plotting AC Impedance
+A Simple Current Limiter
+Compact Current Meter
+Dynamic Analysis Mode
+Fall 2012 Newsletter Files
+Fall 2012 Newslettclser PDF File
+
+Summer 2012
+Questions and Answers
+Easily Overlooked Features
+Plotting Gain and Phase in Harmonic Distortion
+Using Array Variables
+Comparing Analysis Modes
+Summer 2012 Newsletter Files
+Summer 2012 Newsletter PDF File
+
+Spring 2012
+Questions and Answers
+Easily Overlooked Features
+Analyzing Mixers Using Intermodulation Distortion Analysis
+The FFT Window
+Monte Carlo Tolerances and Distributions
+Spring 2012 Newsletter Files
+Spring 2012 Newsletter PDF File
+
+Winter 2012
+Questions and Answers
+Easily Overlooked Features
+Using the N-Port Component
+QAM Modulator Macro
+Simulating an Audio Amplifier in Harmonic Distortion Analysis
+Winter 2012 Newsletter Files
+Winter 2012 Newsletter PDF File
+Fall 2011
+Questions and Answers
+Easily Overlooked Features
+Creating Wingspread Plots
+Importing and Exporting WAV Files
+Comb Filter Macro
+Fall 2011 Newsletter Files
+Fall 2011 Newsletter PDF File
+ 
+Summer 2011
+Questions and Answers
+Easily Overlooked Features
+Diode If vs Vf Temperature Modeling
+Simulating TDR Measurements
+Measuring Power Factor in Linear Circuits
+Summer 2011 Newsletter Files
+Summer 2011 Newsletter PDF File
+Spring 2011
+Questions and Answers
+Easily Overlooked Features
+Plotting Loop Gain Using the Tian Method
+Modeling Skin Effect in an AC Analysis
+Measuring Crest Factor
+Spring 2011 Newsletter Files
+Spring 2011 Newsletter PDF File
+ 
+Winter 2011
+Questions and Answers
+Easily Overlooked Features
+Simulating Switched Capacitor Filters
+Creating Ferrite Bead Models
+Importing PWL Data From A File
+Winter 2011 Newsletter Files
+Winter 2011 Newsletter PDF File
+Fall 2010
+Questions and Answers
+Easily Overlooked Features
+Changing the Power Supplies of a Digital Library Part
+Optimizing Subcircuits in the Model Program
+Creating Nichols and Nyquist Plots
+Fall 2010 Newsletter Files
+Fall 2010 Newsletter PDF File
+ 
+Summer 2010
+Questions and Answers
+Easily Overlooked Features
+Introducing Micro-Cap 10
+Retriggerable Monostable Multivibrator Macro
+VCO with Square Wave Output Macro
+Summer 2010 Newsletter Files
+Summer 2010 Newsletter PDF File
+Fall 2009
+Questions and Answers
+Easily Overlooked Features
+Calculating VSWR, Return Loss, Reflection Coefficient, and Mismatch Loss
+Balun Macro
+Pulse Width Modulator Macro
+Fall 2009 Newsletter Files
+Fall 2009 Newsletter PDF File
+ 
+Summer 2009
+Questions and Answers
+Easily Overlooked Features
+Memristor Macros
+Using the Tolerance Dialog Box
+Adding File Links to a Schematic
+Summer 2009 Newsletter Files
+Summer 2009 Newsletter PDF File
+Spring 2009
+Questions and Answers
+Easily Overlooked Features
+Modeling a Warburg Impedance in AC Analysis
+Enabling and Disabling Schematic Objects
+Displaying Calculations in Dynamic DC
+Spring 2009 Newsletter Files
+Spring 2009 Newsletter PDF File
+ 
+Winter 2009
+Questions and Answers
+Easily Overlooked Features
+Quasi Small Signal Analysis
+Optimizing NTC Thermistor Coefficients
+Limiting Phase Plots to +/- 180 Degrees
+Winter 2009 Newsletter Files
+Winter 2009 Newsletter PDF File
+Fall 2008
+Questions and Answers
+Easily Overlooked Features
+Optimizing for Phase Margin
+RTD Macro
+Frequency Weighting Filter Macro
+Fall 2008 Newsletter Files
+Fall 2008 Newsletter PDF File
+ 
+Summer 2008
+Questions and Answers
+Easily Overlooked Features
+Plotting an AC Coupled Waveform
+Modeling Switch Bounce
+Using .Warning Statements
+Summer 2008 Newsletter Files
+Summer 2008 Newsletter PDF File
+Spring 2008
+Questions and Answers
+Easily Overlooked Features
+Constant Power Load Macro
+Adding SPICE Models from Manufacturers
+Plotting Total RMS Noise Voltage
+Spring 2008 Newsletter Files
+Spring 2008 Newsletter PDF File
+ 
+Winter 2008
+Questions and Answers
+Easily Overlooked Features
+CPFSK Modulator Macro
+Using the IBIS Components
+Christophe Basso SMPS Book and Circuit Examples
+Christophe Basso Files
+Winter 2008 Newsletter Files
+Winter 2008 Newsletter PDF File
+Fall 2007
+Questions and Answers
+Easily Overlooked Features
+Simulating a PID Controller
+DC Motor Macro
+Using the Bus
+Fall 2007 Newsletter Files
+Fall 2007 Newsletter PDF File
+ 
+Summer 2007
+Questions and Answers
+Easily Overlooked Features
+Optimization in Dynamic DC
+Peak Detector Macro
+Using Multiple Shapes and Shape Groups
+Summer 2007 Newsletter Files
+Summer 2007 Newsletter PDF File
+Spring 2007
+Questions and Answers
+Easily Overlooked Features
+Using the Waveform Buffer
+Simulating the Lorenz Attractor
+Lead Acid Battery Macro
+Spring 2007 Newsletter Files
+Spring 2007 Newsletter PDF File
+ 
+Winter 2007
+Questions and Answers
+Easily Overlooked Features
+Introducing Micro-Cap 9
+Repetitive Time Switch Macro
+Measuring Insertion Loss
+Winter 2007 Newsletter Files
+Winter 2007 Newsletter PDF File
+Summer 2006
+Questions and Answers
+Easily Overlooked Features
+Monostable Multivibrator Macro
+Correlating Monte Carlo Parameters
+Using the Sample and Hold Source
+Summer 2006 Newsletter Files
+Summer 2006 Newsletter PDF File
+ 
+Spring 2006
+Questions and Answers
+Easily Overlooked Features
+Network Installation Troubleshooting
+Modeling Impedance with Tabular Data in AC Analysis
+BJT Temperature Modeling
+Spring 2006 Newsletter Files
+Spring 2006 Newsletter PDF File
+Winter 2006
+Questions and Answers
+Easily Overlooked Features
+RMS Macro
+3dB Point Performance Plots
+Importing Inductance Values from a Text File
+Winter 2006 Newsletter Files
+Winter 2006 Newsletter PDF File
+ 
+Fall 2005
+Questions and Answers
+Easily Overlooked Features
+Setting a Guassian Distribution for Random Values
+Quasi Small Signal Analysis
+SPICE3 Operators Versus Standard Boolean Operators
+Fall 2005 Newsletter Files
+Fall 2005 Newsletter PDF File
+Summer 2005
+Questions and Answers
+Easily Overlooked Features
+Resettable Integrator Macro
+Centralizing Component, Shape, and Model Files
+Passing Parameters Through Batch Files
+Summer 2005 Newsletter Files
+Summer 2005 Newsletter PDF File
+ 
+Spring 2005
+Questions and Answers
+Easily Overlooked Features
+Using the Make Subcircuit Option
+Smith Charts and Impedance Plots
+Voltage Limiting Current Source Macro
+Spring 2005 Newsletter Files
+Spring 2005 Newsletter PDF File
+Winter 2005
+Questions and Answers
+Easily Overlooked Features
+Using Global Nodes
+Amplitude Modulator Macro
+Optimizing a Core Model from a Data Sheet
+Winter 2005 Newsletter Files
+Winter 2005 Newsletter PDF File
+ 
+Fall 2004
+Questions and Answers
+Easily Overlooked Features
+Staircase Source Macro
+Upgrading to Micro-Cap 8
+Using the Micro-Cap 8 IBIS Translator
+Fall 2004 Newsletter Files
+Fall 2004 Newsletter PDF File
+Summer 2004
+Questions and Answers
+Easily Overlooked Features
+Modeling Photodiodes
+Using FFT Windows
+HSPICE Style MOSFET Binning
+Summer 2004 Newsletter Files
+Summer 2004 Newsletter PDF File
+ 
+Spring 2004
+Questions and Answers
+Easily Overlooked Features
+Introducing Micro-Cap 8
+Repeater Macro
+Three Phase Triangle Source Macro
+Spring 2004 Newsletter Files
+Spring 2004 Newsletter PDF File
+Fall 2003
+Questions and Answers
+Easily Overlooked Features
+Micro-Cap and Hyperthread Technology
+Text Stepping of Model Statements and Subcircuits
+Digital Clock Macro
+Fall 2003 Newsletter Files
+Fall 2003 Newsletter PDF File
+ 
+Summer 2003
+Questions and Answers
+Easily Overlooked Features
+Creating A Schmitt Trigger Input Digital I/O Interface Model
+Smooth Transition Time Switch
+Diode Materials Temperature Parameter Values
+Summer 2003 Newsletter Files
+Summer 2003 Newsletter PDF File
+Spring 2003
+Questions and Answers
+Easily Overlooked Features
+Creating An Open Drain Output Digital I/O Interface Model
+Creating And Using User Source Files
+Optimizing AC Analysis Frequency Step Sampling
+Spring 2003 Newsletter Files
+Spring 2003 Newsletter PDF File
+ 
+Winter 2003
+Questions and Answers
+Easily Overlooked Features
+Creating A Digital I/O Interface Model
+Modifying Component Icons In The Toolbar
+Hysteresis Switch Macro
+Winter 2003 Newsletter Files
+Winter 2003 Newsletter PDF File
+Fall 2002
+Questions and Answers
+Easily Overlooked Features
+Digital Potentiometer Macro
+Converting an Excel File to a User Source File
+Creating Eye Diagrams
+Fall 2002 Newsletter Files
+Fall 2002 Newsletter PDF File
+ 
+Summer 2002
+Questions and Answers
+Easily Overlooked Features
+Using IBIS Models
+Six Pulse Diode Rectifiers
+Phase-controlled Six Pulse Rectifier/Inverter
+Summer 2002 Newsletter PDF File
+Spring 2002
+Questions and Answers
+Easily Overlooked Features
+Schottky Diodes
+Modeling the DIAC
+A UC1845 Macro Model
+UC1845 Newsletter Files
+Spring 2002 Newsletter PDF File
+ 
+Winter 2002
+Questions and Answers
+Easily Overlooked Features
+Using Symbolic Variables
+Simulating the Multiplier Parameter in BJT Models
+Porting Micro-Cap 5 and 6 Files To Micro-Cap 7
+Winter 2002 Newsletter PDF File
+Fall 2001
+Questions and Answers
+Easily Overlooked Features
+Introducing Micro-Cap 7
+Variable-K Transformer Model
+Plotting Filter Step and Impulse Response
+Fall 2001 Newsletter PDF File
+ 
+Winter 2001
+Questions and Answers
+Easily Overlooked Features
+Plotting Loop Gain and Phase Margin
+Current-limited Power Supply Model
+Measuring S-Parameters
+Converting S-Parameters to Y-Parameters
+Loop Gain Newsletter Files
+Winter 2001 Newsletter PDF File
+Fall 2000
+Questions and Answers
+Easily Overlooked Features
+Modeling LEDs
+Modeling Zener Diodes
+Two Models For Relays
+Fall 2000 Newsletter PDF File
+ 
+Summer 2000
+Questions and Answers
+Easily Overlooked Features
+Using Probe on a Spice File
+Initializing a Flip-flop and Parts That Use Them
+How to Build a Modulator / Demodulator
+Summer 2000 Newsletter PDF File
+Spring 2000
+Questions and Answers
+Easily Overlooked Features
+Importing Micro-Cap Schematics and Plots
+New Duncan Munro Vacuum Tube Models
+Measuring Phase Margin
+Spring 2000 Newsletter PDF File
+ 
+Winter 2000
+Questions and Answers
+Easily Overlooked Features
+Changing the Digital Power Supplies
+Adding New Parts to the MC6 Libraries
+Switched-mode Power Supply Models
+Winter 2000 Newsletter PDF File
+Fall 1999
+Questions and Answers
+Easily Overlooked Features
+Merging Components and Shapes into MC6
+Using Global Nodes
+Monte Carlo Error Reports
+NTC7 Test Signal
+Fall 1999 Newsletter PDF File
+ 
+Spring-Summer 1999
+Questions and Answers
+Easily Overlooked Features
+Introducing Micro-Cap 6
+Table Defined Resistance
+Digital vs Analog Pullup Resistors
+Perfect Transformer vs Ideal Transformer
+Spring-Summer 1999 Newsletter PDF File
+Winter 1999
+Questions and Answers
+Easily Overlooked Features
+Animate Mode
+Spark-Gap Macro
+Stepping the Duty Cycle of a Pulse Source
+Fourier Theory and Phase
+Winter 1999 Newsletter PDF File
+ 
+Fall 1998
+Easily Overlooked Features
+Revised Pink Noise Source
+Solving Differential Equations
+Thermistor Macro
+Windows NT and Service Pack 4 Incompatibilities
+Fall 1998 Newsletter PDF File
+Summer 1998
+Easily Overlooked Features
+White and Pink Noise Source Macros
+FSK Modulator Macro
+AC Analysis Convergence Technique
+User Defined Functions
+Summer 1998 Newsletter PDF File
+ 
+Spring 1998
+Easily Overlooked Features
+Using a Vendor Supplied Subcircuit
+Chebyshev Filter Macro
+PSK Modulator Macro
+Storing the Time of an Event
+Spring 1998 Newsletter PDF File
+Winter 1998
+Easily Overlooked Features
+Modeling a Commercial Digital Component
+Wideband Transformer Macro
+Importing Graphical Templates
+Sweeping a Resistor in DC Analysis
+Winter 1998 Newsletter PDF File
+ 
+Fall 1997
+Easily Overlooked Features
+Noise Source Macro
+Modeling Skin Effect
+Common Digital Mistakes
+MC5 File Hierarchy
+Fall 1997 Newsletter PDF File
+Summer 1997
+Plotting Y Parameters
+Opamp Offset Parameters and Saturation
+Changing the Opamp Model for Different Power Supplies
+Using Performance Functions to Analyze a Filter
+Summer 1997 Newsletter PDF File
+ 
+Spring 1997
+Delay Macro
+Measuring Input Impedance
+Lossy Transmission Line Modeling
+Simulating Loop Gain
+Spring 1997 Newsletter PDF File
+Winter 1997
+Introducing MC5 Version 2.0
+Sample and Hold Macro
+Gyrator Macro
+The Dangers of Aliasing
+Winter 1997 Newsletter PDF File
+ 
+Fall 1996
+Tolerancing a Battery
+Z Domain Simulation
+Stepping a Triangle Source Peak
+Changing the Power Supplies of Digital Parts
+Fall 1996 Newsletter PDF File
+Summer 1996
+Accessing New User Libraries
+Modeling a Programmable Logic Array
+Creating and Using a Macro
+HP Printer Driver Incompatibilities
+Summer 1996 Newsletter PDF File
