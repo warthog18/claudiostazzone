@@ -1,0 +1,67 @@
+sudo apt-get install build-essential cmake git libhdf5-dev libvtk9-dev libboost-all-dev libcgal-dev libtinyxml-dev qtbase5-dev libvtk9-qt-dev octave octave-dev
+
+
+For hyp2math
+sudo apt-get install gengetopt help2man groff pod2pdf bison flex libhpdf-dev libtool
+
+
+sudo apt install python3-full python3-pip
+
+
+For Python interface
+sudo apt install python3-numpy python3-matplotlib cython3 python3-h5py
+
+git clone --recursive https://github.com/thliebig/openEMS-Project.git
+
+./update_openEMS.sh ~/opt/openEMS --with-hyp2mat --with-CTB --python
+
+Paraview:
+sudo apt install paraview
+
+
+Octave:
+% add the required paths to Octave/Matlab:
+addpath('~/opt/openEMS/share/openEMS/matlab')
+addpath('~/opt/openEMS/share/CSXCAD/matlab')
+
+% optional additional pckages:
+addpath('~/opt/openEMS/share/hyp2mat/matlab'); % hyp2mat package
+addpath('~/opt/openEMS/share/CTB/matlab'); % circuit toolbox
+
+or using the graphic interface (Menu - Edit - Set Path).
+
+
+alculating far field at phi=[0 90] deg...
+ ----------------------------------------------------------------------
+ | nf2ff, near-field to far-field transformation for openEMS
+ | (C) 2012-2023 Thorsten Liebig <thorsten.liebig@gmx.de>  GPL license
+ ----------------------------------------------------------------------
+warning: function "h5readatt_octave" not found, trying to run "setup"
+warning: called from
+    ReadHDF5Attribute at line 15 column 9
+    ReadNF2FF at line 22 column 12
+    CalcNF2FF at line 140 column 7
+    Horn_Antenna at line 164 column 7
+
+Problem:
+setting up openEMS matlab/octave interface
+compiling oct files
+HDF5 library path found at: /usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so
+/usr/lib/x86_64-linux-gnu/hdf5/serial
+HDF5 include path found at: /usr/include/hdf5/serial
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: nella funzione `_start':
+(.text+0x1b): riferimento non definito a `main'
+collect2: error: ld returned 1 exit status
+sh: 2: /usr/lib/x86_64-linux-gnu/hdf5/serial: Permission denied
+error: running "setup" failed...
+error: called from
+    ReadHDF5Attribute at line 19 column 13
+    ReadNF2FF at line 22 column 12
+    CalcNF2FF at line 140 column 7
+    Horn_Antenna at line 164 column 7
+    
+Solution:
+    Modify file setup.m in opt/openEMS/share/openEMS/matlab
+    hdf5inc_dir = "/usr/include/hdf5/serial"
+    hdf5lib_dir = "/usr/lib/x86_64-linux-gnu/hdf5/serial"
+    mkoctfile("h5readatt_octave.cc", ["-L" hdf5lib_dir], ["-I" hdf5inc_dir], "-lhdf5", "-shared")

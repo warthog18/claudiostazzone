@@ -1,0 +1,36 @@
+Elmerfem
+
+git clone https://github.com/ElmerCSC/elmerfem.git
+
+Install dependencies
+
+sudo apt install git cmake build-essential gfortran libopenmpi-dev libblas-dev liblapack-dev
+
+mkdir build
+cd build 
+
+cmake -DWITH_ELMERGUI:BOOL=FALSE -DWITH_MPI:BOOL=FALSE -DCMAKE_INSTALL_PREFIX=../../install ../../elmerfem
+
+
+With MPI: ** cmake .. -DWITH_OpenMP:BOOLEAN=TRUE -DWITH_MPI:BOOLEAN=TRUE
+
+With ElmerGUI: ** sudo apt install qtscript5-dev libqt5svg5-dev libqwt-qt5-dev ** cmake .. -DWITH_OpenMP:BOOLEAN=TRUE -DWITH_MPI:BOOLEAN=TRUE -DWITH_ELMERGUI:BOOLEAN=TRUE
+
+With Elmer/Ice (enabling netcdf and MUMPS): ** sudo apt install libnetcdf-dev libnetcdff-dev libmumps-dev libparmetis-dev ** cmake .. -DWITH_OpenMP:BOOLEAN=TRUE -DWITH_MPI:BOOLEAN=TRUE -DWITH_ElmerIce:BOOLEAN=TRUE -DWITH_Mumps:BOOL=TRUE
+
+Compile Everything!!
+cmake -DWITH_ELMERGUI:BOOL=TRUE -DWITH_OpenMP:BOOLEAN=TRUE -DWITH_MPI:BOOL=TRUE -DWITH_ElmerIce:BOOLEAN=TRUE -DWITH_Mumps:BOOL=TRUE -DCMAKE_INSTALL_PREFIX=../../install ../../elmerfem
+
+
+make
+(sudo) make install
+The executables are in /usr/local/bin folder, you may add this to your PATH if you will
+
+Issues with Windows without borders?
+modify /etc/environment by adding
+export QT_QPA_PLATFORM="xcb"
+
+Do you want to install tetgen, a plugin for high quality meshing?
+sudo apt install tetgen
+... then recompile..
+
