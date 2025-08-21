@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab Automation | Claudio Stazzone</title>
+    <link>http://localhost:1313/en/tag/lab-automation/</link>
+      <atom:link href="http://localhost:1313/en/tag/lab-automation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lab Automation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 - 2025 Claudio Stazzone</copyright><lastBuildDate>Thu, 28 Oct 2021 01:05:49 +0200</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/images/icon_hu_12a27ee606c8a0f8.png</url>
+      <title>Lab Automation</title>
+      <link>http://localhost:1313/en/tag/lab-automation/</link>
+    </image>
+    
+    <item>
+      <title>EMC Laboratory Automation</title>
+      <link>http://localhost:1313/en/project/lab-automation/</link>
+      <pubDate>Thu, 28 Oct 2021 01:05:49 +0200</pubDate>
+      <guid>http://localhost:1313/en/project/lab-automation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Claudio Stazzone</title>
+    <link>http://localhost:1313/en/tags/</link>
+      <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 - 2025 Claudio Stazzone</copyright><lastBuildDate>Fri, 31 Mar 2023 00:24:45 +0200</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/images/icon_hu_12a27ee606c8a0f8.png</url>
+      <title>Tags</title>
+      <link>http://localhost:1313/en/tags/</link>
+    </image>
+    
+  </channel>
+</rss>

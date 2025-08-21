@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tecnologie Web | Claudio Stazzone</title>
+    <link>http://localhost:1313/tag/tecnologie-web/</link>
+      <atom:link href="http://localhost:1313/tag/tecnologie-web/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tecnologie Web</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>it</language><copyright>© 2020 - 2025 Claudio Stazzone</copyright><lastBuildDate>Thu, 28 Oct 2021 02:18:06 +0200</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/images/icon_hu_12a27ee606c8a0f8.png</url>
+      <title>Tecnologie Web</title>
+      <link>http://localhost:1313/tag/tecnologie-web/</link>
+    </image>
+    
+    <item>
+      <title>Informazioni su questo sito Internet</title>
+      <link>http://localhost:1313/project/this-website/</link>
+      <pubDate>Thu, 28 Oct 2021 02:18:06 +0200</pubDate>
+      <guid>http://localhost:1313/project/this-website/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

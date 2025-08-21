@@ -1,0 +1,1212 @@
+<!DOCTYPE html><html lang="it" >
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Claudio Stazzone">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Procedura per compilare e installare il software di simulazione ad elementi finiti ElmerFEM sulla distribuzione Manjaro Linux (basata su Arch Linux)">
+
+  
+  <link rel="alternate" hreflang="it" href="http://localhost:1313/post/elmerfem_manjaro22/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu_ae1884c0e35cecd4.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu_615a1d1065ae2471.png">
+
+  <link rel="canonical" href="http://localhost:1313/post/elmerfem_manjaro22/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Claudio Stazzone">
+  <meta property="og:url" content="http://localhost:1313/post/elmerfem_manjaro22/">
+  <meta property="og:title" content="Compilazione e Installazione di ElmerFEM su Manjaro Linux 22 | Claudio Stazzone">
+  <meta property="og:description" content="Procedura per compilare e installare il software di simulazione ad elementi finiti ElmerFEM sulla distribuzione Manjaro Linux (basata su Arch Linux)"><meta property="og:image" content="http://localhost:1313/images/icon_hu_12a27ee606c8a0f8.png">
+  <meta property="twitter:image" content="http://localhost:1313/images/icon_hu_12a27ee606c8a0f8.png"><meta property="og:locale" content="it">
+  
+    
+      <meta property="article:published_time" content="2023-09-02T23:29:18&#43;02:00">
+    
+    <meta property="article:modified_time" content="2023-09-02T23:29:18&#43;02:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/post/elmerfem_manjaro22/"
+  },
+  "headline": "Compilazione e Installazione di ElmerFEM su Manjaro Linux 22",
+  
+  "datePublished": "2023-09-02T23:29:18+02:00",
+  "dateModified": "2023-09-02T23:29:18+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Claudio Stazzone"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Claudio Stazzone",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/images/icon_hu_615a1d1065ae2471.png"
+    }
+  },
+  "description": "Procedura per compilare e installare il software di simulazione ad elementi finiti ElmerFEM sulla distribuzione Manjaro Linux (basata su Arch Linux)"
+}
+</script>
+
+  
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "Questo sito usa i cookies per garantire la migliore esperienza di navigazione.",
+        "dismiss": "Ok!",
+        "link": "Leggi i dettagli",
+        "href": "/privacy/"
+      }
+    })});
+  </script>
+
+
+
+  
+
+
+
+
+
+  <title>Compilazione e Installazione di ElmerFEM su Manjaro Linux 22 | Claudio Stazzone</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Cerca</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Cerca..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Claudio Stazzone</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Attiva la navigazione">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Claudio Stazzone</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Progetti</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Articoli</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contatti</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Cerca"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  
+        <article class="article">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Compilazione e Installazione di ElmerFEM su Manjaro Linux 22</h1>
+
+  
+  <p class="page-subtitle">Compilazione da sorgenti di ElmerFEM</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="">Claudio Stazzone</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 2, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 minuti
+  </span>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/elmerfem_manjaro22/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/simulazione/">Simulazione</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+            <div class="article-container">
+              <div class="article-style">
+                <h2 id="cosa-è-elmerfem">Cosa è ElmerFEM</h2>
+<p>ElmerFEM è un software Open Source che risolve equazioni differenziali parziali, usando il metodo degli elementi finiti. Nasce in Finlandia nel 1995 ed è in costante sviluppo dal 2005, quando viene rilasciato sotto la licenza GNU General Public License (GPL). E&rsquo; un software definito &ldquo;multisym&rdquo; che riesce cioè a simulare diversi fenomeni fisici, come il trasferimento di calore, comportamento dei fluidi (come aria, acqua), comportamenti elastici, trasferimento di onde sonore (acustica), microfluidi, meccanica quantistica, fenomeni elettromagnetici (molto interessanti per chi scrive, senza nulla togliere agli altri, ovviamente).</p>
+<h2 id="il-significato-della-compilazione">Il significato della compilazione</h2>
+<p>Ma perché scervellarsi a compilare il codice sorgente quando si può utilizzare un pacchetto pre-compilato? Perché compilando il software sul proprio PC, si possono ottenere prestazioni notevolmente più performanti, in quanto la compilazione viene fatta su un hardware specifico: i pacchetti precompilati invece sono stati compilati su un hardware generico, che noi non conosciamo, e quindi potrebbero non essere ottimizzati per il PC sul quale il software dovrà girare (il nostro).</p>
+<h2 id="per-chi-non-vuole-smanettare-con-librerie-e-pacchetti-da-installare">Per chi non vuole &ldquo;smanettare&rdquo; con librerie e pacchetti da installare</h2>
+<p>Volete la strada più semplice? Va bene, seguite le istruzioni qui sotto per far fare il lavoro a YAY, scaricamento e compilazione inclusi.</p>
+<p>Installazione del software YAY, per scaricare pacchetti dai repository AUR</p>
+<pre><code>sudo pacman -S yay
+</code></pre>
+<p>Installazione di ElmerFEM tramite YAY</p>
+<pre><code>yay -S elmerfem
+</code></pre>
+<p>E aspettiamo una decina di minuti (sul mio laptop DELL XPS13).
+<strong>Piccolo problema</strong>: ad un certo punto la compilazione si è fermata con un errore relativo alla libreria libmmgtypesf.h (in realtà un header file della libreria MMG). E&rsquo; bastato un minuto di ricerca su internet per trovare che il file in questione è stato spostato dalla cartella /usr/include/mmg/mmg3d alla cartella /usr/include/mmg/common. Ho quindi provveduto a fare un link al file residente in common, per farlo trovare al compilatore&hellip; ok, funziona!
+In dieci minuti circa avete ElmerFEM funzionante.</p>
+<p>Volete avere l&rsquo;ultimissima versione di ElmerFEM, con tutti i cambiamenti e migliorie apportati dagli sviluppatori e contributori del progetto? Andate avanti a leggere&hellip;</p>
+<p>Il processo di compilazione non è semplice per definizione, e generalmente riservato ai cosiddetti &ldquo;nerd&rdquo;. Condivido queste informazioni proprio per semplificare il processo e con l&rsquo;obiettivo di dare la possibilità a tutti di eseguire i passi che porteranno ad avere ElmerFEM compilato sul proprio sistema.</p>
+<p>Le istruzioni per la compilazione visibili dal sito di ElmerFEM non sono esplicative per chi usa Manjaro Linux, o in generale una distribuzione Linux basata su Arch Linux, che potrebbe chiamare in modo leggermente differente le librerie e i vari pacchetti che devono essere installati prima di ElmerFEM. Ecco il secondo motivo per cui scrivo queste istruzioni.</p>
+<h2 id="preparazione-del-sistema">Preparazione del sistema</h2>
+<p>Installare il pacchetto base-devel per la compilazione</p>
+<pre><code>sudo pacman -S base-devel
+</code></pre>
+<p>Scaricare i sorgenti di ElmerFEM dal repository GitHub cliccando 
+<a href="https://github.com/ElmerCSC/elmerfem.git" target="_blank" rel="noopener">qui</a>, clonando il repository con il comando:</p>
+<pre><code>git clone https://github.com/ElmerCSC/elmerfem.git
+</code></pre>
+<p>Se non sapete cosa è GIT, non vi preoccupate. Basta visitare il link qui sopra, cliccare sul bottone verde &ldquo;&lt;&gt; Code&rdquo;, e cliccare su &ldquo;Download ZIP&rdquo;.</p>
+<h2 id="programmi-e-librerie-necessari-per-una-compilazione-senza-errori">Programmi e librerie necessari per una compilazione senza errori</h2>
+<p>La prima fase della compilazione consiste nella creazione di un file che contiene tutte le informazioni necessarie: le librerie da utilizzare, i percorsi dove creare i vari file risultato della compilazione, e altre cose.</p>
+<p>Con libreria MUMPS (attualmente non funziona in Manjaro)
+Libreria MUMPs</p>
+<p>yay -S mumps
+yay -S parmetis (restituisce errore gklib&hellip;)</p>
+<pre><code>cmake -DWITH_QT5=TRUE -DWITH_ELMERGUI:BOOL=TRUE -DWITH_MPI:BOOL=TRUE -DWITH_Mumps:BOOL=TRUE -DWITH_LUA:BOOL=TRUE -DCMAKE_INSTALL_PREFIX=../install ../../elmerfem
+</code></pre>
+<p>Senza libreria MUMPS</p>
+<pre><code>cmake -DWITH_QT5=TRUE -DWITH_ELMERGUI:BOOL=TRUE -DWITH_MPI:BOOL=TRUE -DWITH_LUA:BOOL=TRUE -DCMAKE_INSTALL_PREFIX=../install ../../elmerfem
+</code></pre>
+<p>Il comando per eseguire la compilazione vera e propria è semplicemente <strong>make</strong></p>
+
+              </div>
+              
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/em_simulation/">EM_Simulation</a>
+  
+  <a class="badge badge-light" href="/tag/elmerfem/">ElmerFEM</a>
+  
+  <a class="badge badge-light" href="/tag/elementi_finiti/">Elementi_Finiti</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://localhost:1313/post/elmerfem_manjaro22/&amp;text=Compilazione%20e%20Installazione%20di%20ElmerFEM%20su%20Manjaro%20Linux%2022" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://localhost:1313/post/elmerfem_manjaro22/&amp;t=Compilazione%20e%20Installazione%20di%20ElmerFEM%20su%20Manjaro%20Linux%2022" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Compilazione%20e%20Installazione%20di%20ElmerFEM%20su%20Manjaro%20Linux%2022&amp;body=http://localhost:1313/post/elmerfem_manjaro22/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://localhost:1313/post/elmerfem_manjaro22/&amp;title=Compilazione%20e%20Installazione%20di%20ElmerFEM%20su%20Manjaro%20Linux%2022" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Compilazione%20e%20Installazione%20di%20ElmerFEM%20su%20Manjaro%20Linux%2022%20http://localhost:1313/post/elmerfem_manjaro22/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://localhost:1313/post/elmerfem_manjaro22/&amp;title=Compilazione%20e%20Installazione%20di%20ElmerFEM%20su%20Manjaro%20Linux%2022" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/claudio-stazzone/avatar_hu_ad0ab70e4838a57a.jpg" alt="Claudio Stazzone">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="http://localhost:1313/">Claudio Stazzone</a></h5>
+        <h6 class="card-subtitle">Ingegnere della Compatibilità Elettromagnetica</h6>
+        <p class="card-text">Lavoro nella Compatibilità Elettromagnetica dal 2008. Sono Senior Project Handler e Coordinatore Tecnico nel laboratorio EMC di una multinazionale del testing.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/claudio-stazzone-emc/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://diasp.org/people/7bb17e7080b90138a558047d7b62795e" target="_blank" rel="noopener">
+        <i class="fab fa-diaspora"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "claudiostazzone-com" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+            </div>
+        </article>
+  
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"Nessun risultato","placeholder":"Cerca...","results":"Risultati della ricerca"};
+      const content_type = {
+        'post': "Post",
+        'project': "Progetti",
+        'publication' : "Pubblicazioni",
+        'talk' : "Conferenze",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://claudiostazzone-com.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.65f3e6050e55012580fcb9200f7a3e41.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy e Trattamento Dati Personali</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Termini e Condizioni</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © 2020 - 2025 Claudio Stazzone
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a>
+    for
+    <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citazione</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copia
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

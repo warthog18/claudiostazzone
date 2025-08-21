@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulazioni | Claudio Stazzone</title>
+    <link>http://localhost:1313/category/simulazioni/</link>
+      <atom:link href="http://localhost:1313/category/simulazioni/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simulazioni</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>it</language><copyright>© 2020 - 2025 Claudio Stazzone</copyright><lastBuildDate>Fri, 31 Mar 2023 00:24:45 +0200</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/images/icon_hu_12a27ee606c8a0f8.png</url>
+      <title>Simulazioni</title>
+      <link>http://localhost:1313/category/simulazioni/</link>
+    </image>
+    
+    <item>
+      <title>Microcap: risorse e materiale vario</title>
+      <link>http://localhost:1313/post/microcap/</link>
+      <pubDate>Fri, 31 Mar 2023 00:24:45 +0200</pubDate>
+      <guid>http://localhost:1313/post/microcap/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Ho raccolto tutto il materiale dal sito della Spectrum Soft, non più attivo&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;strong&gt;DISCLAMER&lt;/strong&gt;: il materiale qui fornito è stato scaricato in modo del tutto legale dal sito internet della Spectrum Soft, ed è
+fornito a titolo completamente gratuito. Nessuna somma di denaro è richiesta per il suo scaricamento. Il materiale è fornito
+gratuitamente a tutta la comunità di progettisti elettronici e può essere usato liberamente. La conservazione del materiale serve per preservare la memoria
+nonostante non sia più disponibile a causa della chiusura del sito web che lo ospitava e relativa disattivazione del dominio 
+&lt;a href=&#34;https://www.spectrum-soft.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.spectrum-soft.com&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;MicroCap (
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Micro-Cap&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pagina WikiPedia&lt;/a&gt;) era un simulatore di circuiti elettronici basato sul motore Spice Berkley.
+Era un software venduto a 4500 $, che già diverso tempo fa consentiva di fare simulazioni integrando i parametri 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Input/output_Buffer_Information_Specification&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBIS&lt;/a&gt; con le direttive SPICE, definendo macro, simulazioni MonteCarlo, e ottimizzazione dei valori di componenti. Inoltre aveva una funzione interessante che consentiva di &amp;ldquo;disegnare&amp;rdquo; le caratteristiche I/V e altre curve di qualsiasi componente, che il progettista poteva reperire sui datasheet, creando così modelli di componenti molto aderenti alla realtà.&lt;/p&gt;
+&lt;p&gt;I creatori di questo meravigliso software erano Andy Thompson, Tim O&amp;rsquo;Brien e Bill Steele. Come si legge da WikiPedia, a metà del 2019 la Spectrum-Soft chiude, e il software viene rilasciato, udite udite, come freeware. Decade anche il supporto ufficiale, anche se in settembre del 2020 viene rilasciato un altro update the software, questa volta davvero l&amp;rsquo;ultimo.&lt;/p&gt;
+&lt;p&gt;Agli inizi del 2023, il sito ufficiale viene messo fuori uso ed il dominio non viene più registrato. Tutto il materiale custodito nel sito viene così perduto.
+Fortunatamente nel 2019 avevo cominciato a scaricare tutto il materiale, ed avevo chiesto a Andy, uno dei creatori, se fosse possibile creare il file PDF di tutto il materiale: mi aveva risposto che ci avrebbe pensato, e dopo qualche mese erano disponibili tutti i PDF delle newsletter. Cominciai così a scaricarli tutti.&lt;/p&gt;
+&lt;p&gt;Per ogni capitolo troverete:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Domande e Risposte&lt;/li&gt;
+&lt;li&gt;Caratteristiche nascoste (o quasi) della versione&lt;/li&gt;
+&lt;li&gt;Breve sommario degli argomenti&lt;/li&gt;
+&lt;li&gt;File compresso con i file .CIR da caricare in MicroCap e simulare&lt;/li&gt;
+&lt;li&gt;File PDF con spiegazioni, diagrammi, articoli&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Indice dei Contenuti&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2016&#34;&gt;Winter 2016&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2015&#34;&gt;Fall 2015&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2015&#34;&gt;Spring 2015&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2015&#34;&gt;Winter 2015&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2014&#34;&gt;Summer 2014&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2014&#34;&gt;Spring 2014&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2014&#34;&gt;Winter 2014&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2013&#34;&gt;Fall 2013&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2013&#34;&gt;Winter 2013&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2012&#34;&gt;Fall 2012&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2012&#34;&gt;Summer 2012&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2012&#34;&gt;Spring 2012&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2012&#34;&gt;Winter 2012&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2011&#34;&gt;Fall 2011&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2011&#34;&gt;Summer 2011&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2011&#34;&gt;Spring 2011&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2011&#34;&gt;Winter 2011&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2010&#34;&gt;Fall 2010&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2010&#34;&gt;Summer 2010&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2009&#34;&gt;Fall 2009&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2009&#34;&gt;Summer 2009&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2009&#34;&gt;Spring 2009&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2009&#34;&gt;Winter 2009&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2008&#34;&gt;Fall 2008&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2008&#34;&gt;Summer 2008&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2008&#34;&gt;Spring 2008&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2008&#34;&gt;Winter 2008&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2007&#34;&gt;Fall 2007&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2007&#34;&gt;Summer 2007&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2007&#34;&gt;Spring 2007&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2007&#34;&gt;Winter 2007&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2006&#34;&gt;Summer 2006&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2006&#34;&gt;Spring 2006&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2006&#34;&gt;Winter 2006&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2005&#34;&gt;Fall 2005&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2005&#34;&gt;Summer 2005&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2005&#34;&gt;Spring 2005&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2005&#34;&gt;Winter 2005&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2004&#34;&gt;Fall 2004&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2004&#34;&gt;Summer 2004&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2004&#34;&gt;Spring 2004&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2003&#34;&gt;Fall 2003&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2003&#34;&gt;Summer 2003&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2003&#34;&gt;Spring 2003&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2003&#34;&gt;Winter 2003&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2002&#34;&gt;Fall 2002&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2002&#34;&gt;Summer 2002&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2002&#34;&gt;Spring 2002&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2002&#34;&gt;Winter 2002&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2001&#34;&gt;Fall 2001&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2001&#34;&gt;Winter 2001&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-2000&#34;&gt;Fall 2000&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-2000&#34;&gt;Summer 2000&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-2000&#34;&gt;Spring 2000&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-2000&#34;&gt;Winter 2000&lt;br&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-1999&#34;&gt;Fall 1999&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-summer-1999&#34;&gt;Spring-Summer 1999&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-1999&#34;&gt;Winter 1999&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-1998&#34;&gt;Fall 1998&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-1998&#34;&gt;Summer 1998&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-1998&#34;&gt;Spring 1998&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-1998&#34;&gt;Winter 1998&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-1997&#34;&gt;Fall 1997&lt;br&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-1997&#34;&gt;Summer 1997&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#spring-1997&#34;&gt;Spring 1997&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#winter-1997&#34;&gt;Winter 1997&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fall-1996&#34;&gt;Fall 1996&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#summer-1996&#34;&gt;Summer 1996&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h3 id=&#34;winter-2016&#34;&gt;Winter 2016&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using the Optimizer to Set Oscillator Frequency&lt;br&gt;
+The Fit to Standard Values Command&lt;br&gt;
+Fourier Analysis Guidelines&lt;br&gt;
+
+&lt;a href=&#34;./material/winter2016.zip&#34;&gt;Winter 2016 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2016.pdf&#34;&gt;Winter 2016 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2015&#34;&gt;Fall 2015&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Working With Nonlinear Capacitors&lt;br&gt;
+Viewing Monte Carlo Circuit Cases&lt;br&gt;
+Making a DPDT Switch&lt;br&gt;
+
+&lt;a href=&#34;material/fall2015.zip&#34;&gt;Fall 2015 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2015.pdf&#34;&gt;Fall 2015 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2015&#34;&gt;Spring 2015&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Subcircuit Variables and Passed Parameter&lt;br&gt;
+A Simple Way to Add Parts to the Component Library&lt;br&gt;
+Plotting Ferrite Core Impedance and S Parameter Curves&lt;br&gt;
+
+&lt;a href=&#34;material/spring2015.zip&#34;&gt;Spring 2015 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2015.pdf&#34;&gt;Spring 2015 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2015&#34;&gt;Winter 2015&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Creating Parts with Many Pins&lt;br&gt;
+Curve Fitting with Micro-Cap&lt;br&gt;
+Quasi Small Signal Analysis Updated&lt;br&gt;
+
+&lt;a href=&#34;material/winter2015.zip&#34;&gt;Winter 2015 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2015.pdf&#34;&gt;Winter 2015 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2014&#34;&gt;Summer 2014&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Encryption&lt;br&gt;
+Migrate Command&lt;br&gt;
+Importing data from MATLAB&lt;br&gt;
+Exporting data to MATLAB&lt;br&gt;
+
+&lt;a href=&#34;material/summer2014.zip&#34;&gt;Summer 2014 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2014.pdf&#34;&gt;Summer 2014 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2014&#34;&gt;Spring 2014&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Exporting Data to Excel&lt;br&gt;
+Stepper Motor Model&lt;br&gt;
+AC Induction Motor Model&lt;br&gt;
+
+&lt;a href=&#34;material/spring2014.zip&#34;&gt;Spring 2014 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2014.pdf&#34;&gt;Spring 2014 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2014&#34;&gt;Winter 2014&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Phase Locked Loops&lt;br&gt;
+FSK System Using a PLL&lt;br&gt;
+Batch Files&lt;br&gt;
+
+&lt;a href=&#34;material/winter2014.zip&#34;&gt;Winter 2014 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2014.pdf&#34;&gt;Winter 2014 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2013&#34;&gt;Fall 2013&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Worst Case Analysis&lt;br&gt;
+Stability Analysis&lt;br&gt;
+.Measure commands&lt;br&gt;
+Fourier Window Functions&lt;br&gt;
+
+&lt;a href=&#34;material/fall2013.zip&#34;&gt;Fall 2013 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2013.pdf&#34;&gt;Fall 2013 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2013&#34;&gt;Winter 2013&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Performance Functions&lt;br&gt;
+Analysis Plot Labels&lt;br&gt;
+Periodic Steady State&lt;br&gt;
+
+&lt;a href=&#34;material/winter2013.zip&#34;&gt;Winter 2013 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2013.pdf&#34;&gt;Winter 2013 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2012&#34;&gt;Fall 2012&lt;/h3&gt;
+&lt;p&gt;Questions and Answers
+Easily Overlooked Features&lt;br&gt;
+Plotting AC Impedance&lt;br&gt;
+A Simple Current Limiter&lt;br&gt;
+Compact Current Meter&lt;br&gt;
+Dynamic Analysis Mode&lt;br&gt;
+
+&lt;a href=&#34;material/fall2012.zip&#34;&gt;Fall 2012 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2012.pdf&#34;&gt;Fall 2012 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2012&#34;&gt;Summer 2012&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Plotting Gain and Phase in Harmonic Distortion&lt;br&gt;
+Using Array Variables&lt;br&gt;
+Comparing Analysis Modes&lt;br&gt;
+
+&lt;a href=&#34;material/summer2012.zip&#34;&gt;Summer 2012 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2012.pdf&#34;&gt;Summer 2012 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2012&#34;&gt;Spring 2012&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Analyzing Mixers Using Intermodulation Distortion Analysis&lt;br&gt;
+The FFT Window&lt;br&gt;
+Monte Carlo Tolerances and Distributions&lt;br&gt;
+
+&lt;a href=&#34;material/spring2012.zip&#34;&gt;Spring 2012 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2012.pdf&#34;&gt;Spring 2012 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2012&#34;&gt;Winter 2012&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using the N-Port Component&lt;br&gt;
+QAM Modulator Macro&lt;br&gt;
+Simulating an Audio Amplifier in Harmonic Distortion Analysis&lt;br&gt;
+
+&lt;a href=&#34;material/winter2012.zip&#34;&gt;Winter 2012 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2012.pdf&#34;&gt;Winter 2012 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2011&#34;&gt;Fall 2011&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Creating Wingspread Plots&lt;br&gt;
+Importing and Exporting WAV Files&lt;br&gt;
+Comb Filter Macro&lt;br&gt;
+
+&lt;a href=&#34;material/fall2011.zip&#34;&gt;Fall 2011 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2011.pdf&#34;&gt;Fall 2011 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2011&#34;&gt;Summer 2011&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Diode If vs Vf Temperature Modeling&lt;br&gt;
+Simulating TDR Measurements&lt;br&gt;
+Measuring Power Factor in Linear Circuits&lt;br&gt;
+
+&lt;a href=&#34;material/summer2011.zip&#34;&gt;Summer 2011 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2011.pdf&#34;&gt;Summer 2011 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2011&#34;&gt;Spring 2011&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Plotting Loop Gain Using the Tian Method&lt;br&gt;
+Modeling Skin Effect in an AC Analysis&lt;br&gt;
+Measuring Crest Factor&lt;br&gt;
+
+&lt;a href=&#34;material/spring2011.zip&#34;&gt;Spring 2011 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2011.pdf&#34;&gt;Spring 2011 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2011&#34;&gt;Winter 2011&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Simulating Switched Capacitor Filters&lt;br&gt;
+Creating Ferrite Bead Models&lt;br&gt;
+Importing PWL Data From A File&lt;br&gt;
+
+&lt;a href=&#34;material/winter2011.zip&#34;&gt;Winter 2011 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2011.pdf&#34;&gt;Winter 2011 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2010&#34;&gt;Fall 2010&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Changing the Power Supplies of a Digital Library Part&lt;br&gt;
+Optimizing Subcircuits in the Model Program&lt;br&gt;
+Creating Nichols and Nyquist Plots&lt;br&gt;
+
+&lt;a href=&#34;material/fall2010.zip&#34;&gt;Fall 2010 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2010.pdf&#34;&gt;Fall 2010 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2010&#34;&gt;Summer 2010&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Introducing Micro-Cap 10&lt;br&gt;
+Retriggerable Monostable Multivibrator Macro&lt;br&gt;
+VCO with Square Wave Output Macro&lt;br&gt;
+
+&lt;a href=&#34;material/summer2010.zip&#34;&gt;Summer 2010 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2010.pdf&#34;&gt;Summer 2010 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2009&#34;&gt;Fall 2009&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Calculating VSWR, Return Loss, Reflection Coefficient, and Mismatch Loss&lt;br&gt;
+Balun Macro&lt;br&gt;
+Pulse Width Modulator Macro&lt;br&gt;
+
+&lt;a href=&#34;material/fall2009.zip&#34;&gt;Fall 2009 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2009.pdf&#34;&gt;Fall 2009 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2009&#34;&gt;Summer 2009&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Memristor Macros&lt;br&gt;
+Using the Tolerance Dialog Box&lt;br&gt;
+Adding File Links to a Schematic&lt;br&gt;
+
+&lt;a href=&#34;material/summer2009.zip&#34;&gt;Summer 2009 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2009.pdf&#34;&gt;Summer 2009 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2009&#34;&gt;Spring 2009&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Modeling a Warburg Impedance in AC Analysis&lt;br&gt;
+Enabling and Disabling Schematic Objects&lt;br&gt;
+Displaying Calculations in Dynamic DC&lt;br&gt;
+
+&lt;a href=&#34;material/spring2009.zip&#34;&gt;Spring 2009 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2009.pdf&#34;&gt;Spring 2009 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2009&#34;&gt;Winter 2009&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Quasi Small Signal Analysis&lt;br&gt;
+Optimizing NTC Thermistor Coefficients&lt;br&gt;
+Limiting Phase Plots to +/- 180 Degrees&lt;br&gt;
+
+&lt;a href=&#34;material/winter2009.zip&#34;&gt;Winter 2009 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2009.pdf&#34;&gt;Winter 2009 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2008&#34;&gt;Fall 2008&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Optimizing for Phase Margin&lt;br&gt;
+RTD Macro&lt;br&gt;
+Frequency Weighting Filter Macro&lt;br&gt;
+
+&lt;a href=&#34;material/fall2008.zip&#34;&gt;Fall 2008 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2008.pdf&#34;&gt;Fall 2008 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2008&#34;&gt;Summer 2008&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Plotting an AC Coupled Waveform&lt;br&gt;
+Modeling Switch Bounce&lt;br&gt;
+Using .Warning Statements&lt;br&gt;
+
+&lt;a href=&#34;material/summer2008.zip&#34;&gt;Summer 2008 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2008.pdf&#34;&gt;Summer 2008 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2008&#34;&gt;Spring 2008&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Constant Power Load Macro&lt;br&gt;
+Adding SPICE Models from Manufacturers&lt;br&gt;
+Plotting Total RMS Noise Voltage&lt;br&gt;
+
+&lt;a href=&#34;material/spring2008.zip&#34;&gt;Spring 2008 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2008.pdf&#34;&gt;Spring 2008 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2008&#34;&gt;Winter 2008&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+CPFSK Modulator Macro&lt;br&gt;
+Using the IBIS Components&lt;br&gt;
+Christophe Basso SMPS Book and Circuit Examples&lt;br&gt;
+Christophe Basso Files&lt;br&gt;
+
+&lt;a href=&#34;material/winter2008.zip&#34;&gt;Winter 2008 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2008.pdf&#34;&gt;Winter 2008 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2007&#34;&gt;Fall 2007&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Simulating a PID Controller&lt;br&gt;
+DC Motor Macro&lt;br&gt;
+Using the Bus&lt;br&gt;
+
+&lt;a href=&#34;material/fall2007.zip&#34;&gt;Fall 2007 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2007.pdf&#34;&gt;Fall 2007 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2007&#34;&gt;Summer 2007&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Optimization in Dynamic DC&lt;br&gt;
+Peak Detector Macro&lt;br&gt;
+Using Multiple Shapes and Shape Groups&lt;br&gt;
+
+&lt;a href=&#34;material/summer2007.zip&#34;&gt;Summer 2007 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2007.pdf&#34;&gt;Summer 2007 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2007&#34;&gt;Spring 2007&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using the Waveform Buffer&lt;br&gt;
+Simulating the Lorenz Attractor&lt;br&gt;
+Lead Acid Battery Macro&lt;br&gt;
+
+&lt;a href=&#34;material/spring2007.zip&#34;&gt;Spring 2007 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2007.pdf&#34;&gt;Spring 2007 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2007&#34;&gt;Winter 2007&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Introducing Micro-Cap 9&lt;br&gt;
+Repetitive Time Switch Macro&lt;br&gt;
+Measuring Insertion Loss&lt;br&gt;
+
+&lt;a href=&#34;material/winter2007.zip&#34;&gt;Winter 2007 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2007.pdf&#34;&gt;Winter 2007 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2006&#34;&gt;Summer 2006&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Monostable Multivibrator Macro&lt;br&gt;
+Correlating Monte Carlo Parameters&lt;br&gt;
+Using the Sample and Hold Source&lt;br&gt;
+
+&lt;a href=&#34;material/summer2006.zip&#34;&gt;Summer 2006 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2006.pdf&#34;&gt;Summer 2006 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2006&#34;&gt;Spring 2006&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Network Installation Troubleshooting&lt;br&gt;
+Modeling Impedance with Tabular Data in AC Analysis&lt;br&gt;
+BJT Temperature Modeling&lt;br&gt;
+
+&lt;a href=&#34;material/spring2006.zip&#34;&gt;Spring 2006 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2006.pdf&#34;&gt;Spring 2006 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2006&#34;&gt;Winter 2006&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+RMS Macro&lt;br&gt;
+3dB Point Performance Plots&lt;br&gt;
+Importing Inductance Values from a Text File&lt;br&gt;
+
+&lt;a href=&#34;material/winter2006.zip&#34;&gt;Winter 2006 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2006.pdf&#34;&gt;Winter 2006 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2005&#34;&gt;Fall 2005&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Setting a Guassian Distribution for Random Values&lt;br&gt;
+Quasi Small Signal Analysis&lt;br&gt;
+SPICE3 Operators Versus Standard Boolean Operators&lt;br&gt;
+
+&lt;a href=&#34;material/fall2005.zip&#34;&gt;Fall 2005 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2005.pdf&#34;&gt;Fall 2005 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2005&#34;&gt;Summer 2005&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Resettable Integrator Macro&lt;br&gt;
+Centralizing Component, Shape, and Model Files&lt;br&gt;
+Passing Parameters Through Batch Files&lt;br&gt;
+
+&lt;a href=&#34;material/summer2005.zip&#34;&gt;Summer 2005 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2005.pdf&#34;&gt;Summer 2005 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2005&#34;&gt;Spring 2005&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using the Make Subcircuit Option&lt;br&gt;
+Smith Charts and Impedance Plots&lt;br&gt;
+Voltage Limiting Current Source Macro&lt;br&gt;
+
+&lt;a href=&#34;material/spring2005.zip&#34;&gt;Spring 2005 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2005.pdf&#34;&gt;Spring 2005 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2005&#34;&gt;Winter 2005&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using Global Nodes&lt;br&gt;
+Amplitude Modulator Macro&lt;br&gt;
+Optimizing a Core Model from a Data Sheet&lt;br&gt;
+
+&lt;a href=&#34;material/winter2005.zip&#34;&gt;Winter 2005 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2005.pdf&#34;&gt;Winter 2005 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2004&#34;&gt;Fall 2004&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Staircase Source Macro&lt;br&gt;
+Upgrading to Micro-Cap 8&lt;br&gt;
+Using the Micro-Cap 8 IBIS Translator&lt;br&gt;
+
+&lt;a href=&#34;material/fall2004.zip&#34;&gt;Fall 2004 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2004.pdf&#34;&gt;Fall 2004 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2004&#34;&gt;Summer 2004&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Modeling Photodiodes&lt;br&gt;
+Using FFT Windows&lt;br&gt;
+HSPICE Style MOSFET Binning&lt;br&gt;
+
+&lt;a href=&#34;material/summer2005.zip&#34;&gt;Summer 2004 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2004.pdf&#34;&gt;Summer 2004 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2004&#34;&gt;Spring 2004&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Introducing Micro-Cap 8&lt;br&gt;
+Repeater Macro&lt;br&gt;
+Three Phase Triangle Source Macro&lt;br&gt;
+
+&lt;a href=&#34;material/spring2004.zip&#34;&gt;Spring 2004 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2004.pdf&#34;&gt;Spring 2004 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2003&#34;&gt;Fall 2003&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Micro-Cap and Hyperthread Technology&lt;br&gt;
+Text Stepping of Model Statements and Subcircuits&lt;br&gt;
+Digital Clock Macro&lt;br&gt;
+
+&lt;a href=&#34;material/fall2003.zip&#34;&gt;Fall 2003 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2003.pdf&#34;&gt;Fall 2003 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2003&#34;&gt;Summer 2003&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Creating A Schmitt Trigger Input Digital I/O Interface Model&lt;br&gt;
+Smooth Transition Time Switch&lt;br&gt;
+Diode Materials Temperature Parameter Values&lt;br&gt;
+
+&lt;a href=&#34;material/summer2003.zip&#34;&gt;Summer 2003 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/summer2003.pdf&#34;&gt;Summer 2003 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2003&#34;&gt;Spring 2003&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Creating An Open Drain Output Digital I/O Interface Model&lt;br&gt;
+Creating And Using User Source Files&lt;br&gt;
+Optimizing AC Analysis Frequency Step Sampling&lt;br&gt;
+
+&lt;a href=&#34;material/spring2003.zip&#34;&gt;Spring 2003 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/spring2003.pdf&#34;&gt;Spring 2003 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2003&#34;&gt;Winter 2003&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Creating A Digital I/O Interface Model&lt;br&gt;
+Modifying Component Icons In The Toolbar&lt;br&gt;
+Hysteresis Switch Macro&lt;br&gt;
+
+&lt;a href=&#34;material/winter2003.zip&#34;&gt;Winter 2003 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/winter2003.pdf&#34;&gt;Winter 2003 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2002&#34;&gt;Fall 2002&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Digital Potentiometer Macro&lt;br&gt;
+Converting an Excel File to a User Source File&lt;br&gt;
+Creating Eye Diagrams&lt;br&gt;
+
+&lt;a href=&#34;material/fall2002.zip&#34;&gt;Fall 2002 Newsletter Files&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;material/fall2002.pdf&#34;&gt;Fall 2002 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2002&#34;&gt;Summer 2002&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using IBIS Models&lt;br&gt;
+Six Pulse Diode Rectifiers&lt;br&gt;
+Phase-controlled Six Pulse Rectifier/Inverter&lt;br&gt;
+
+&lt;a href=&#34;material/summer2002.pdf&#34;&gt;Summer 2002 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2002&#34;&gt;Spring 2002&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Schottky Diodes&lt;br&gt;
+Modeling the DIAC&lt;br&gt;
+A UC1845 Macro Model&lt;br&gt;
+UC1845 Newsletter Files&lt;br&gt;
+
+&lt;a href=&#34;material/spring2002.pdf&#34;&gt;Spring 2002 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2002&#34;&gt;Winter 2002&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using Symbolic Variables&lt;br&gt;
+Simulating the Multiplier Parameter in BJT Models&lt;br&gt;
+Porting Micro-Cap 5 and 6 Files To Micro-Cap 7&lt;br&gt;
+
+&lt;a href=&#34;material/winter2002.pdf&#34;&gt;Winter 2002 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2001&#34;&gt;Fall 2001&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Introducing Micro-Cap 7&lt;br&gt;
+Variable-K Transformer Model&lt;br&gt;
+Plotting Filter Step and Impulse Response&lt;br&gt;
+
+&lt;a href=&#34;material/fall2001.pdf&#34;&gt;Fall 2001 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2001&#34;&gt;Winter 2001&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Plotting Loop Gain and Phase Margin&lt;br&gt;
+Current-limited Power Supply Model&lt;br&gt;
+Measuring S-Parameters&lt;br&gt;
+Converting S-Parameters to Y-Parameters&lt;br&gt;
+Loop Gain Newsletter Files&lt;br&gt;
+
+&lt;a href=&#34;material/winter2001.pdf&#34;&gt;Winter 2001 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-2000&#34;&gt;Fall 2000&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Modeling LEDs&lt;br&gt;
+Modeling Zener Diodes&lt;br&gt;
+Two Models For Relays&lt;br&gt;
+
+&lt;a href=&#34;material/fall2000.pdf&#34;&gt;Fall 2000 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-2000&#34;&gt;Summer 2000&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Using Probe on a Spice File&lt;br&gt;
+Initializing a Flip-flop and Parts That Use Them&lt;br&gt;
+How to Build a Modulator / Demodulator&lt;br&gt;
+
+&lt;a href=&#34;material/summer2000.pdf&#34;&gt;Summer 2000 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-2000&#34;&gt;Spring 2000&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Importing Micro-Cap Schematics and Plots&lt;br&gt;
+New Duncan Munro Vacuum Tube Models&lt;br&gt;
+Measuring Phase Margin&lt;br&gt;
+
+&lt;a href=&#34;material/spring2000.pdf&#34;&gt;Spring 2000 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-2000&#34;&gt;Winter 2000&lt;br&gt;&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Changing the Digital Power Supplies&lt;br&gt;
+Adding New Parts to the MC6 Libraries&lt;br&gt;
+Switched-mode Power Supply Models&lt;br&gt;
+
+&lt;a href=&#34;material/winter2000.pdf&#34;&gt;Winter 2000 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-1999&#34;&gt;Fall 1999&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Merging Components and Shapes into MC6&lt;br&gt;
+Using Global Nodes&lt;br&gt;
+Monte Carlo Error Reports&lt;br&gt;
+NTC7 Test Signal&lt;br&gt;
+
+&lt;a href=&#34;material/fall99.pdf&#34;&gt;Fall 1999 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-summer-1999&#34;&gt;Spring-Summer 1999&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Introducing Micro-Cap 6&lt;br&gt;
+Table Defined Resistance&lt;br&gt;
+Digital vs Analog Pullup Resistors&lt;br&gt;
+Perfect Transformer vs Ideal Transformer&lt;br&gt;
+
+&lt;a href=&#34;material/sprsum99.pdf&#34;&gt;Spring-Summer 1999 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-1999&#34;&gt;Winter 1999&lt;/h3&gt;
+&lt;p&gt;Questions and Answers&lt;br&gt;
+Easily Overlooked Features&lt;br&gt;
+Animate Mode&lt;br&gt;
+Spark-Gap Macro&lt;br&gt;
+Stepping the Duty Cycle of a Pulse Source&lt;br&gt;
+Fourier Theory and Phase&lt;br&gt;
+
+&lt;a href=&#34;material/winter99.pdf&#34;&gt;Winter 1999 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-1998&#34;&gt;Fall 1998&lt;/h3&gt;
+&lt;p&gt;Easily Overlooked Features&lt;br&gt;
+Revised Pink Noise Source&lt;br&gt;
+Solving Differential Equations&lt;br&gt;
+Thermistor Macro&lt;br&gt;
+Windows NT and Service Pack 4 Incompatibilities&lt;br&gt;
+
+&lt;a href=&#34;material/fall98.pdf&#34;&gt;Fall 1998 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-1998&#34;&gt;Summer 1998&lt;/h3&gt;
+&lt;p&gt;Easily Overlooked Features&lt;br&gt;
+White and Pink Noise Source Macros&lt;br&gt;
+FSK Modulator Macro&lt;br&gt;
+AC Analysis Convergence Technique&lt;br&gt;
+User Defined Functions&lt;br&gt;
+
+&lt;a href=&#34;material/summer98.pdf&#34;&gt;Summer 1998 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-1998&#34;&gt;Spring 1998&lt;/h3&gt;
+&lt;p&gt;Easily Overlooked Features&lt;br&gt;
+Using a Vendor Supplied Subcircuit&lt;br&gt;
+Chebyshev Filter Macro&lt;br&gt;
+PSK Modulator Macro&lt;br&gt;
+Storing the Time of an Event&lt;br&gt;
+
+&lt;a href=&#34;material/spring98.pdf&#34;&gt;Spring 1998 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-1998&#34;&gt;Winter 1998&lt;/h3&gt;
+&lt;p&gt;Easily Overlooked Features&lt;br&gt;
+Modeling a Commercial Digital Component&lt;br&gt;
+Wideband Transformer Macro&lt;br&gt;
+Importing Graphical Templates&lt;br&gt;
+Sweeping a Resistor in DC Analysis&lt;br&gt;
+
+&lt;a href=&#34;material/winter98.pdf&#34;&gt;Winter 1998 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-1997&#34;&gt;Fall 1997&lt;br&gt;&lt;/h3&gt;
+&lt;p&gt;Easily Overlooked Features&lt;br&gt;
+Noise Source Macro&lt;br&gt;
+Modeling Skin Effect&lt;br&gt;
+Common Digital Mistakes&lt;br&gt;
+MC5 File Hierarchy&lt;br&gt;
+
+&lt;a href=&#34;material/fall97.pdf&#34;&gt;Fall 1997 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-1997&#34;&gt;Summer 1997&lt;/h3&gt;
+&lt;p&gt;Plotting Y Parameters&lt;br&gt;
+Opamp Offset Parameters and Saturation&lt;br&gt;
+Changing the Opamp Model for Different Power Supplies&lt;br&gt;
+Using Performance Functions to Analyze a Filter&lt;br&gt;
+
+&lt;a href=&#34;material/summer97.pdf&#34;&gt;Summer 1997 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spring-1997&#34;&gt;Spring 1997&lt;/h3&gt;
+&lt;p&gt;Delay Macro&lt;br&gt;
+Measuring Input Impedance&lt;br&gt;
+Lossy Transmission Line Modeling&lt;br&gt;
+Simulating Loop Gain&lt;br&gt;
+
+&lt;a href=&#34;material/spring97.pdf&#34;&gt;Spring 1997 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winter-1997&#34;&gt;Winter 1997&lt;/h3&gt;
+&lt;p&gt;Introducing MC5 Version 2.0&lt;br&gt;
+Sample and Hold Macro&lt;br&gt;
+Gyrator Macro&lt;br&gt;
+The Dangers of Aliasing&lt;br&gt;
+
+&lt;a href=&#34;material/winter97.pdf&#34;&gt;Winter 1997 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fall-1996&#34;&gt;Fall 1996&lt;/h3&gt;
+&lt;p&gt;Tolerancing a Battery&lt;br&gt;
+Z Domain Simulation&lt;br&gt;
+Stepping a Triangle Source Peak&lt;br&gt;
+Changing the Power Supplies of Digital Parts&lt;br&gt;
+
+&lt;a href=&#34;material/fall96.pdf&#34;&gt;Fall 1996 Newsletter PDF File&lt;br&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;summer-1996&#34;&gt;Summer 1996&lt;/h3&gt;
+&lt;p&gt;Accessing New User Libraries&lt;br&gt;
+Modeling a Programmable Logic Array&lt;br&gt;
+Creating and Using a Macro&lt;br&gt;
+HP Printer Driver Incompatibilities&lt;br&gt;
+
+&lt;a href=&#34;material/summer96.pdf&#34;&gt;Summer 1996 Newsletter PDF File&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
