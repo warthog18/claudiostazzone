@@ -10,7 +10,7 @@ categories: [Simulazione]
 date: 2023-09-02T23:29:18+02:00
 lastmod: 2023-09-02T23:29:18+02:00
 featured: false
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -79,12 +79,16 @@ Se non sapete cosa è GIT, non vi preoccupate. Basta visitare il link qui sopra,
 
 La prima fase della compilazione consiste nella creazione di un file che contiene tutte le informazioni necessarie: le librerie da utilizzare, i percorsi dove creare i vari file risultato della compilazione, e altre cose.
 
+```
+sudo pacman -S gcc-fortran netcdf netcdf-fortran netcdf-fortran-openmpi fftw-openmpi qwt qt5-script
+```
+
 Con libreria MUMPS (attualmente non funziona in Manjaro)
 Libreria MUMPs
 
-yay -S mumps
-yay -S parmetis (restituisce errore gklib...)
-
+```
+yay -S mumps parmetis
+```
 ```
 cmake -DWITH_QT5=TRUE -DWITH_ELMERGUI:BOOL=TRUE -DWITH_MPI:BOOL=TRUE -DWITH_Mumps:BOOL=TRUE -DWITH_LUA:BOOL=TRUE -DCMAKE_INSTALL_PREFIX=../install ../../elmerfem
 ```
