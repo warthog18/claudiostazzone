@@ -36,8 +36,8 @@ In dieci minuti circa avete ElmerFEM funzionante.&lt;/p&gt;
 &lt;p&gt;Il processo di compilazione non è semplice per definizione, e generalmente riservato ai cosiddetti &amp;ldquo;nerd&amp;rdquo;. Condivido queste informazioni proprio per semplificare il processo e con l&amp;rsquo;obiettivo di dare la possibilità a tutti di eseguire i passi che porteranno ad avere ElmerFEM compilato sul proprio sistema.&lt;/p&gt;
 &lt;p&gt;Le istruzioni per la compilazione visibili dal sito di ElmerFEM non sono esplicative per chi usa Manjaro Linux, o in generale una distribuzione Linux basata su Arch Linux, che potrebbe chiamare in modo leggermente differente le librerie e i vari pacchetti che devono essere installati prima di ElmerFEM. Ecco il secondo motivo per cui scrivo queste istruzioni.&lt;/p&gt;
 &lt;h2 id=&#34;preparazione-del-sistema&#34;&gt;Preparazione del sistema&lt;/h2&gt;
-&lt;p&gt;Installare il pacchetto base-devel per la compilazione&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S base-devel
+&lt;p&gt;Installare il pacchetto base-devel per la compilazione e git per clonare il repository di ElmerFem.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo pacman -S base-devel git
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Scaricare i sorgenti di ElmerFEM dal repository GitHub cliccando 
 &lt;a href=&#34;https://github.com/ElmerCSC/elmerfem.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt;, clonando il repository con il comando:&lt;/p&gt;

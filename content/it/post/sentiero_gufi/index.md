@@ -3,7 +3,7 @@
 
 title: "Il Sentiero dei Gufi"
 subtitle: "Un sentiero anche per famiglie, alla scoperta di animali fantastici"
-summary: ""
+summary: "Un sentiero anche per famiglie, alla scoperta di animali fantastici"
 authors: [admin]
 tags: [gite, famiglia]
 categories: [recensioni]
@@ -27,22 +27,22 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 gallery_item:
-- album: sentiero_gufi
+- album: gallery
   image: 01_inizio_sentiero.jpg
   caption: L'inizio del sentiero con la statua del Gufo
-- album: sentiero_gufi
+- album: gallery
   image: 02_spaventapasseri.jpg
   caption: Ci accoglie questo bellissimo spaventapasseri poco prima dell'inizio del sentiero
-- album: sentiero_gufi
+- album: gallery
   image: 03_chiesettaok.jpg
   caption: La bella chiesetta posta proprio alla partenza del sentiero
-- album: sentiero_gufi
+- album: gallery
   image: 04_cascata.jpg
   caption: All'improvviso, proprio sul sentiero, si apre la visuale di una bella cascata
-- album: sentiero_gufi
+- album: gallery
   image: 05_sentiero.jpg
   caption: Uno scorcio di sentiero in versione autunnale
-- album: sentiero_gufi
+- album: gallery
   image: 06_spirito_boschi.jpg
   caption: Ci siamo divertiti ad immaginare uno spirito dei boschi... lo avete trovato?
 ---
@@ -77,4 +77,4 @@ Ultima nota: consiglio di visitare il sito internet citato all'inizio del post, 
 
 
 ## Galleria Immagini
-{{< gallery album="sentiero_gufi" resize_option="25x25" >}}
+{{< gallery >}}

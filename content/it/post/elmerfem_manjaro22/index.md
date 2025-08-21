@@ -61,10 +61,10 @@ Le istruzioni per la compilazione visibili dal sito di ElmerFEM non sono esplica
 
 ## Preparazione del sistema
 
-Installare il pacchetto base-devel per la compilazione
+Installare il pacchetto base-devel per la compilazione e git per clonare il repository di ElmerFem.
 
 ```
-sudo pacman -S base-devel
+sudo pacman -S base-devel git
 ```
 
 Scaricare i sorgenti di ElmerFEM dal repository GitHub cliccando [qui](https://github.com/ElmerCSC/elmerfem.git), clonando il repository con il comando:

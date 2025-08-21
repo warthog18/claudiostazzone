@@ -5,12 +5,115 @@
     <link>http://localhost:1313/tag/gite/</link>
       <atom:link href="http://localhost:1313/tag/gite/index.xml" rel="self" type="application/rss+xml" />
     <description>Gite</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>it</language><copyright>© 2020 - 2025 Claudio Stazzone</copyright><lastBuildDate>Wed, 18 Oct 2023 23:49:17 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>it</language><copyright>© 2020 - 2025 Claudio Stazzone</copyright><lastBuildDate>Thu, 21 Aug 2025 14:56:06 +0200</lastBuildDate>
     <image>
       <url>http://localhost:1313/images/icon_hu_12a27ee606c8a0f8.png</url>
       <title>Gite</title>
       <link>http://localhost:1313/tag/gite/</link>
     </image>
+    
+    <item>
+      <title>Miniere di Talco in Val Germanasca</title>
+      <link>http://localhost:1313/post/miniere-talco-germanasca/</link>
+      <pubDate>Thu, 21 Aug 2025 14:56:06 +0200</pubDate>
+      <guid>http://localhost:1313/post/miniere-talco-germanasca/</guid>
+      <description>&lt;h2 id=&#34;galleria-immagini&#34;&gt;Galleria Immagini&lt;/h2&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/01_arrivo.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/01_arrivo_hu_77391cf1d8e98cb7.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/02_tunnel.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/02_tunnel_hu_577c9a40b0c1ec85.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/argano.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/argano_hu_c9d45a0b73929570.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/pozzo.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/pozzo_hu_4858167ce40eb85c.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/talco.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/talco_hu_d3c291c2939a8279.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/trenini_01.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/trenini_01_hu_6b0494a78d703471.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/trenini_02.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/trenini_02_hu_c73adbf102aa0ef0.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;253&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/viaggio_trenino.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/miniere-talco-germanasca/gallery/viaggio_trenino_hu_3dcd2755da674f0b.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;hr&gt;
+</description>
+    </item>
     
     <item>
       <title>Il Sentiero dei Gufi</title>
@@ -51,88 +154,73 @@
   
   
   
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/sentiero_gufi/gallery/01_inizio_sentiero.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/sentiero_gufi/gallery/01_inizio_sentiero_hu_9132c19142b39555.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/sentiero_gufi/gallery/02_spaventapasseri.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/sentiero_gufi/gallery/02_spaventapasseri_hu_601e8fc27a2e7537.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/sentiero_gufi/gallery/03_chiesettaok.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/sentiero_gufi/gallery/03_chiesettaok_hu_9445a11416dac3dd.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/sentiero_gufi/gallery/04_cascata.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/sentiero_gufi/gallery/04_cascata_hu_e4702f3a244a6c4f.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/sentiero_gufi/gallery/05_sentiero.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/sentiero_gufi/gallery/05_sentiero_hu_25a487320d0d712f.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/sentiero_gufi/gallery/06_spirito_boschi.jpg&#34; &gt;
+  &lt;img data-src=&#34;http://localhost:1313/post/sentiero_gufi/gallery/06_spirito_boschi_hu_6d609cc65ace4b37.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;143&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
 
-  
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-sentiero_gufi&#34; data-caption=&#34;L&amp;amp;rsquo;inizio del sentiero con la statua del Gufo&#34; href=&#34;http://localhost:1313/media/01_inizio_sentiero.jpg&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/media/01_inizio_sentiero.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-sentiero_gufi&#34; data-caption=&#34;Ci accoglie questo bellissimo spaventapasseri poco prima dell&amp;amp;rsquo;inizio del sentiero&#34; href=&#34;http://localhost:1313/media/02_spaventapasseri.jpg&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/media/02_spaventapasseri.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-sentiero_gufi&#34; data-caption=&#34;La bella chiesetta posta proprio alla partenza del sentiero&#34; href=&#34;http://localhost:1313/media/03_chiesettaok.jpg&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/media/03_chiesettaok.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-sentiero_gufi&#34; data-caption=&#34;All&amp;amp;rsquo;improvviso, proprio sul sentiero, si apre la visuale di una bella cascata&#34; href=&#34;http://localhost:1313/media/04_cascata.jpg&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/media/04_cascata.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-sentiero_gufi&#34; data-caption=&#34;Uno scorcio di sentiero in versione autunnale&#34; href=&#34;http://localhost:1313/media/05_sentiero.jpg&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/media/05_sentiero.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-sentiero_gufi&#34; data-caption=&#34;Ci siamo divertiti ad immaginare uno spirito dei boschi&amp;amp;hellip; lo avete trovato?&#34; href=&#34;http://localhost:1313/media/06_spirito_boschi.jpg&#34;&gt;
-    &lt;img src=&#34;http://localhost:1313/media/06_spirito_boschi.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
   
 &lt;/div&gt;
 </description>
