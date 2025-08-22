@@ -77,7 +77,7 @@ git clone https://github.com/ElmerCSC/elmerfem.git
 La prima fase della compilazione consiste nella creazione di un file che contiene tutte le informazioni necessarie: le librerie da utilizzare, i percorsi dove creare i vari file risultato della compilazione, e altre cose.
 
 ```
-sudo pacman -S gcc-fortran netcdf netcdf-fortran netcdf-fortran-openmpi fftw-openmpi qwt qt5-script
+sudo pacman -S gcc-fortran netcdf netcdf-fortran netcdf-fortran-openmpi fftw-openmpi qwt qt5-script arpack cli11
 ```
 
 Con libreria MUMPS (attualmente non funziona in Manjaro)
