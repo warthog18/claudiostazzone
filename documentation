@@ -1,0 +1,20 @@
+Create a blog post
+hugo new  --kind post post/my-article-name
+
+
+Table of Contents
+{{% toc %}}
+
+
+Alert note (exclamation mark with blue circle)
+
+{{% alert note %}}
+Here's a tip or note...
+{{% /alert %}}
+
+
+Alert warning (Exclamation mark with red triangle)
+
+{{% alert warning %}}
+Here's a tip or note...
+{{% /alert %}}

@@ -86,8 +86,9 @@ La vacanza è stata prenotata in un periodo a cavallo tra agosto e settembre, pe
 
 Il campeggio è organizzato come il tipico villaggio turistico, con animazione, molti servizi interni che consentono di non lasciare mai il camping, se uno vuole. Non è il solito campeggio "spartano" in cui si alloggia soltanto e si va al mare. Inoltre la location è una estesa pineta inserita in un parco naturale, quindi soggetta a restrizioni di carattere ambientale.
 
-**DISCLAMER**: le opinioni e valutazioni di seguito espresse sono di carattere personale e basate sulla esperienza diretta. Su Google Maps ci sono recensione anche molto negative del campeggio, quindi le esperienze potrebbero non risultare uguali a quella che abbiamo vissuto noi
-
+{{% alert note %}}
+**DISCLAMER**: le opinioni e valutazioni di seguito espresse sono di carattere personale e basate sulla esperienza diretta. Su Google Maps ci sono recensioni anche molto negative del campeggio, quindi le esperienze potrebbero non risultare uguali a quella che abbiamo vissuto noi
+{{% /alert %}}
 
 ## Prenotazione
 Abbiamo prenotato usando il vecchio metodo della mail e scrivendo tutte le informazioni che sarebbero servite per la prenotazione. La risposta è stata molto veloce e chiara, con tutte le regole per il pagamento dell'acconto e di come fare a saldare la cifra del soggiorno, entro i termini previsti. Nessun problema riscontrato... è bastato rispettare diligentemente le regole dei pagamenti. All'arrivo viene trattenuta una cauzione di 150 euro, da pagare in contanti oppure con carta di credito: in quest'ultimo caso viene solo preso il numero della carta per l'eventuale trattenuta della cifra.

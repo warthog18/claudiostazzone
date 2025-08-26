@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tag/campeggio/</loc>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -16,7 +19,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -28,17 +31,8 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tag/famiglia/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tag/gite/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/miniere-talco-germanasca/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -51,10 +45,10 @@
                 />
   </url><url>
     <loc>http://localhost:1313/category/recensioni/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -65,6 +59,21 @@
                 hreflang="it"
                 href="http://localhost:1313/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/tag/vacanze/</loc>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/salinello/</loc>
+    <lastmod>2025-08-26T23:40:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tag/famiglia/</loc>
+    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tag/gite/</loc>
+    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/miniere-talco-germanasca/</loc>
+    <lastmod>2025-08-21T14:56:06+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/sentiero_gufi/</loc>
     <lastmod>2023-10-18T23:49:17+02:00</lastmod>
@@ -84,13 +93,7 @@
     <loc>http://localhost:1313/category/simulazione/</loc>
     <lastmod>2023-09-02T23:29:18+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/campeggio/</loc>
-    <lastmod>2023-08-21T22:16:59+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/esperidi/</loc>
-    <lastmod>2023-08-21T22:16:59+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tag/vacanze/</loc>
     <lastmod>2023-08-21T22:16:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/project/openems_sar/</loc>
