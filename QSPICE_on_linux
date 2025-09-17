@@ -1,0 +1,12 @@
+Scaricare wine-staging_10.14-x86_64.AppImage
+  da https://github.com/mmtrt/WINE_AppImage/releases/tag/continuous-staging
+
+chmod +x wine-*.AppImage
+
+./wine-staging_8.18-x86_64.AppImage
+
+./wine-staging_8.18-x86_64.AppImage InstallQSPICE.exe
+
+./wine-staging_8.18-x86_64.AppImage ~/.wine-appimage-staging/drive_c/Program\ Files/QSPICE/QUX.exe
+
+
