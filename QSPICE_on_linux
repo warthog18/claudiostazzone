@@ -9,4 +9,4 @@ chmod +x wine-*.AppImage
 
 ./wine-staging_8.18-x86_64.AppImage ~/.wine-appimage-staging/drive_c/Program\ Files/QSPICE/QUX.exe
 
-
+Thanks to https://www.ltspiceusers.ch/threads/qspice-unter-linux-installieren.2167/
