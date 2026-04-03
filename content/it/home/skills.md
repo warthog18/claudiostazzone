@@ -18,37 +18,37 @@ subtitle = ""
   icon = "microscope"
   icon_pack = "fas"
   name = "Strumentazione Elettronica"
-  description = "90%"
+  #description = "90%"
 
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Software di automazione Misure EMC"
-  description = "100%"
+  #description = "100%"
 
 [[feature]]
   icon = "tasks"
   icon_pack = "fas"
   name = "Management tecnico di laboratorio"
-  description = "80%"
+  #description = "80%"
 
 [[feature]]
   icon = "tools"
   icon_pack = "fas"
   name = "Tarature di strumentazione elettronica"
-  description = "80%"
+  #description = "80%"
 
 [[feature]]
   icon = "glasses"
   icon_pack = "fas"
   name = "Accreditamento di Laboratorio Prove"
-  description = "80%"
+ # description = "80%"
 
 [[feature]]
   icon = "tachometer-alt"
   icon_pack = "fas"
   name = "Miglioramento efficienza delle catene di misura"
-  description = "80%"
+  #description = "80%"
 
 # Uncomment to use emoji icons.
 # [[feature]]

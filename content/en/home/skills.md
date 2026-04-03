@@ -16,28 +16,28 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
-  icon: microscope
+# description: 90%
+- icon: microscope
   icon_pack: fas
   name: Electronics laboratory instruments
-- description: 100%
-  icon: chart-line
+# description: 100%
+- icon: chart-line
   icon_pack: fas
   name: EMC software automation
-- description: 80%
-  icon: tasks
+# description: 80%
+- icon: tasks
   icon_pack: fas
   name: Technical Management of EMC laboratory
-- description: 60%
-  icon: tools
+# description: 60%
+- icon: tools
   icon_pack: fas
   name: Calibration of laboratory and RF instruments
-- description: 80%
-  icon: glasses
+# description: 80%
+- icon: glasses
   icon_pack: fas
   name: Accreditation of laboratories
-- description: 80%
-  icon: tachometer-alt
+# description: 80%
+- icon: tachometer-alt
   icon_pack: fas
   name: Betterment of measurement chains efficiency
 # Uncomment to use emoji icons.
