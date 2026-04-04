@@ -10,7 +10,7 @@ categories: [recensioni]
 date: 2025-08-26T23:40:05+02:00
 lastmod: 2025-08-26T23:40:05+02:00
 featured: false
-draft: false
+draft: true
 commentable: true
 
 # Featured image
@@ -90,4 +90,4 @@ Il campeggio è organizzato come il tipico villaggio turistico, con animazione, 
 
 
 ## Galleria Immagini
-
+{{< gallery >}}
