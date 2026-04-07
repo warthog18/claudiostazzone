@@ -50,6 +50,24 @@ subtitle = ""
   name = "Miglioramento efficienza delle catene di misura"
   #description = "80%"
 
+[[feature]]
+  icon = "cogs"
+  icon_pack = "fas"
+  name = "Simulazioni di circuiti elettronici e campi EM"
+  #description = "80%"
+
+[[feature]]
+  icon = "broadcast-tower"
+  icon_pack = "fas"
+  name = "Misure a RadioFrequenza"
+  #description = "80%"
+
+[[feature]]
+  icon = "award"
+  icon_pack = "fas"
+  name = "Test Plan e Certificazione di Prodotto"
+  #description = "80%"
+
 # Uncomment to use emoji icons.
 # [[feature]]
 #  icon = ":smile:"

@@ -39,7 +39,22 @@ feature:
 # description: 80%
 - icon: tachometer-alt
   icon_pack: fas
-  name: Betterment of measurement chains efficiency
+  name: Improvement of measurement chains efficiency
+- icon: cogs
+  icon_pack: fas
+  name: Simulations for Electronics circuits and EM Fields
+  #description = "80%"
+- icon: broadcast-tower
+  icon_pack: fas
+  name: Radiofrequency Measurements
+  #description = "80%"
+- icon: award
+  icon_pack: fas
+  name: Test Plan and Product Certification
+  #description = "80%"
+
+
+
 # Uncomment to use emoji icons.
 #- icon: ':smile:'
 #  icon_pack: emoji
