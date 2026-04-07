@@ -36,6 +36,16 @@ slides: ""
 draft: false
 share: false
 commentable: true
+gallery_item:
+- album: gallery
+  image: IMG_1431.JPG
+  caption: Retro dellas cheda con lo slot per la batteria
+- album: gallery
+  image: IMG_1432.JPG
+  caption: Lato superiore del PCB con il modulo radio WiFi e la scheda inclinometro/giroscopio
+- album: gallery
+  image: IMG_1433.JPG
+  caption: Vista laterale con montaggio inclinato degli headers
 ---
 
 _"Grazie a Claudio, mio ex-collega, per la fiducia accordatami"_
@@ -57,4 +67,5 @@ Comunque, dopo una decina di minuti di lavoro sono riuscito ad eseguire tutte le
 
 Di seguito la galleria con alcune immagini della basetta.
 
-Inserire qui la galleria immagini
+## Galleria Immagini
+{{< gallery >}}

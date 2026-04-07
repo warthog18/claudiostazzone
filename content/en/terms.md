@@ -12,7 +12,7 @@ header:
   image: ""
 ---
 
-Claudio Stazzone (claudio@claudiostazzone.com)<br>
+Claudio Stazzone (claudio[AT]claudiostazzone[DOT]com)<br>
 Electromagnetic Compatibility Engineer<br>
 Turin (ITALY)
 

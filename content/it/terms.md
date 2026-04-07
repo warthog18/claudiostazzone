@@ -11,7 +11,7 @@ header:
   caption: ''
   image: ''
 ---
-Claudio Stazzone (claudio@claudiostazzone.com)<br>
+Claudio Stazzone (claudio[AT]claudiostazzone[DOT]com)<br>
 Ingegnere della Compatibilità Elettromagnetica<br>
 Torino (Italia)
 

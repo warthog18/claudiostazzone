@@ -1,6 +1,10 @@
 ---
 title: PCB iSpindel
 summary: Third-party PCBs assembly and components soldering
+
+authors: 
+- admin
+
 tags:
 - PCB
 date: "2020-02-27T00:00:00Z"
@@ -9,7 +13,7 @@ date: "2020-02-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption: iSpindel assemblato
+  caption: Assembled iSpindel
   focal_point: Smart
 
 #links:
@@ -28,16 +32,41 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+
 draft: true
+
 share: false
+projects: []
+gallery_item:
+- album: gallery
+  image: IMG_1431.JPG
+  caption: Backside view of PCB with battery slot
+- album: gallery
+  image: IMG_1432.JPG
+  caption: Top side with radio module and accelerometer/gyroscope
+- album: gallery
+  image: IMG_1433.JPG
+  caption: Side view with slanted headers mount
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+_"Grazie a Claudio, mio ex-collega, per la fiducia accordatami"_
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+Ogni tanto capitano nella vita quelle occasioni che davvero per caso arrivano, e generalmente ti colgono di sorpresa.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+Sapevo che un mio collega aveva la passione della birra, e che si era attrezzato per farsela in casa. Un giorno arriva da me in laboratorio e mi chiede supporto per saldare alcuni componenti su una basetta (PCB in gergo, Printed Circuit Board).
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+Mi feci spiegare i dettagli del progetto: era una basetta Open Source, clone di un progetto più grosso e non Open Source, che consentiva di verificare le condizioni secondo le quali la birra poteva essere pronta, a seguito della distillazione corretta e monitorando alcuni parametri come la temperatura.
+Il progetto si chiamava [iSpindel](https://www.iSpindel.de), nato in Germania.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Invito tutti gli appassioanti di elettronica (e di birra) a vedere il sito del progetto: davvero interessante, soprattutto in quanto la visualizzazione dei dati avviene tramite una connessione WiFi e un'app per cellulare (o visualizzazione tramite browser Web).
+
+La basetta era fatta bene, ma essendo in realtà un clone del progetto iSpindel, c'erano alcuni errori di progettazione a cui si era posto rimedio in modo un po' artigianale (d'altronde cosa volete, le cose facili facili? Assolutamente no...).
+
+Se non ricordo male c'erano delle filature da fare o dei pin da cortocircuitare, e poi, dato che non erano stati calcolati bene gli ingombri di alcuni componenti, era necessario eseguire una saldatura angolata della scheda superiore (quella con il connettore micro-usb), con degli headers che dovevano essere saldati inclinati di circa 20 gradi (visibile nell'ultima foto della galleria).
+
+Comunque, dopo una decina di minuti di lavoro sono riuscito ad eseguire tutte le saldature necessarie, collaudato la basetta, riscontrato il corretto funzionamento e ricevuto i complimenti sempre graditi del mio ex-collega.
+
+Di seguito la galleria con alcune immagini della basetta.
+
+## Galleria Immagini
+{{< gallery >}}
