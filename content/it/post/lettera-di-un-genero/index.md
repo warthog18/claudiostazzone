@@ -3,7 +3,7 @@
 
 title: "Lettera Di Un Genero per il Paradiso"
 subtitle: "lunga, riportata integralmente da un post su Facebook"
-summary: ""
+summary: "lunga, riportata integralmente da un post su Facebook"
 authors: [Claudio]
 tags: [Personale]
 categories: []
@@ -28,7 +28,9 @@ image:
 projects: []
 ---
 
-Caro Giovanni, te ne sei andato davvero troppo presto. Avevamo ancora tante cose da fare insieme. Sai, volevamo andare una volta a pescare con il tuo nipotino: lo sai che a casa vuole costruire sempre una canna da pesca come quella del nonno... non siamo riusciti ad organizzare per tempo. Ti ricordi? Dovevamo andare a settembre, quando la temperatura sarebbe stata più fresca... Questo mi fa pensare al fatto che bisogna sempre prendere le occasioni al volo, appena ti capitano. Perchè potrebbe non esserci più quella possibilità, e allora ti accorgi che ti sei perso qualcosa...
+Caro Giovanni, te ne sei andato davvero troppo presto. Avevamo ancora tante cose da fare insieme.
+
+Sai, volevamo andare una volta a pescare con il tuo nipotino: lo sai che a casa vuole costruire sempre una canna da pesca come quella del nonno... non siamo riusciti ad organizzare per tempo. Ti ricordi? Dovevamo andare a settembre, quando la temperatura sarebbe stata più fresca... Questo mi fa pensare al fatto che bisogna sempre prendere le occasioni al volo, appena ti capitano. Perchè potrebbe non esserci più quella possibilità, e allora ti accorgi che ti sei perso qualcosa...
 
 In questi momenti affiorano tanti ricordi, succede sempre così. Mi hai accolto come l'ultimo arrivato nella tua famiglia... finalmente l'ultima tua figlia ti ha portato un fidanzato in casa. Da lì a un anno l'avrebbe sposata, e ti avrebbe dato dei nipotini. Mi ricordo quando ero a casa vostra a pranzo, a fine pasto mi offrivi sempre metà frutto, metà mela o pesca... non ho mai capito se lo facevi perchè per te era troppa, oppure perchè volevi condividere... la seconda, ora che ci penso.
 
