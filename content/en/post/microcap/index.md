@@ -5,7 +5,7 @@ subtitle: ""
 summary: "I have collected all the material available in the Newsletter session of non any more available SpectrumSoft website"
 authors: [admin]
 tags: [Microcap, Spice]
-categories: [Simulazioni]
+categories: [Simulations]
 date: 2023-03-31T00:24:45+02:00
 lastmod: 2023-03-31T00:24:45+02:00
 

@@ -74,7 +74,7 @@ email: ""
 #git@github.com:warthog18/academic.git- Visitors
 ---
 
-Claudio Stazzone works by the Electromagnetic Compatibility laboratory of a big multinational [TIC](https://en.wikipedia.org/wiki/Testing,_inspection_and_certification) company.
+Claudio Stazzone works by the [Electromagnetic Compatibility](https://en.wikipedia.org/wiki/Electromagnetic_compatibility) laboratory of a big multinational [TIC](https://en.wikipedia.org/wiki/Testing,_inspection_and_certification) company.
 His main task is performing EMC measurements and Radio Spectrum measurements on various products. He is one of the references for setups and measurements among the EMC team of the lab. He is involved in various projects for laboratory automation and Radio Equipment measurements.
 
 He approaches Electromagnetic compatibility in 2008, by a small laboratory near Turin. He soon got fashinated by the complexity of the subject, and begins to buy books on EMC, in order to study and increase knowledge.
