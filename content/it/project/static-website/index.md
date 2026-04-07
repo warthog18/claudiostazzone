@@ -3,7 +3,6 @@ title: Come ho creato questo sito
 summary: La tecnologia dei siti statici
 authors:
 - admin
-draft: true
 tags:
 - Siti Statici
 

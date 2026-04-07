@@ -14,8 +14,8 @@ date: "2020-07-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption:
-  focal_point:
+  caption: PCB 28Pins assemblato
+  focal_point: Smart
 
 #links:
 #- icon: ""
@@ -33,7 +33,7 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
-draft: true
+draft: false
 share: false
 ---
 
