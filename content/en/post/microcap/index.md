@@ -13,8 +13,8 @@ lastmod: 2023-03-31T00:24:45+02:00
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: Copyright by Claudio Stazzone
+  focal_point: Smart
   preview_only: false
 
 # Projects (optional).
@@ -34,10 +34,10 @@ _I have collected all the material available in the SpectrumSoft website, not ac
 **DISCLAMER**: material hereby available has been legally downloaded from SpectrumSoft website and it is available completely free. I ask no money in any way for the download. This material is set available to the Community of Electronics enthusiasts, electronics designers, and anyone can use it freely. I keep this material to preserve memory of it, as the website from where I downloaded is not any more online, due to the closing of the project and the relative de-activation of the domain www.spectrum-soft.com
 {{% /alert %}}
 
-MicroCap ([pagina WikiPedia](https://en.wikipedia.org/wiki/Micro-Cap)) was an electronics circuits simulator based on Berkley Spice engine.
+MicroCap ([WikiPedia page](https://en.wikipedia.org/wiki/Micro-Cap)) was an electronics circuits simulator based on Berkley Spice engine.
 The software was sold at around 4500 US dollars, and since then was able to simulate using [IBIS](https://en.wikipedia.org/wiki/Input/output_Buffer_Information_Specification) parameters with SPICE directives, macros capability, MonteCarlo simulations, and there was a routine for values optimization of electronics components. Besides, there was a great function that was able to "design" I/V curve of components, relying on datasheet values, in order to create models very near to real behaviour of electronics components, like transistors, MOSFETs, diodes, and so on.
 
-Creators of this great software were Andy Thompson, Tim O'Brien and Bill Steele. As you can read from WikiPedia, Spectrum-Soft closed in mid 2019, and the software was released freely (we can never be enough grateful to you guys). Official support was obviously interrupted, bu in September 2020 another update was released (great!!). Was the last update ever.
+Creators of this great software were Andrew Thompson, Tim O'Brien and Bill Steele. As you can read from WikiPedia, Spectrum-Soft closed in mid 2019, and the software was released freely (we can never be enough grateful to you guys!). Official support was obviously interrupted, but in September 2020 another update was released (great!!). Was the last update ever.
 
 Beginning of 2023, the official website was put out of service and the domain was closed. The whole material inside  the website was then lost... but not forever.
 Luckily, in 2019 I begun to download all the material, and I asked Andy, one of the creators, if it was possible to create PDFs of all the webpages with instructions and examples of MicroCap: Andy answered that he would have thought about it, and a few months after, all the PDFs were available in Newsletter session of the website. I then begun to download also those files.
@@ -48,6 +48,12 @@ For any chapter you will find:
 - Brief summary of the subjects
 - Compressed file with .CIR files to load in MicroCap, ready to simulate
 - PDF files with explanations, diagrams, articles
+
+You can download the entire Newsletter archive in a single file (around 50 MB) by clicking [here](./material/newsletters.zip)
+
+You can download various material by clicking [here](./material/Various/various.zip)
+
+You can download the final update of MicroCap software (around 60 MB) by clicking [here](./material/mc12cd.zip)
 
 {{< toc >}}
 
